@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dad Jokes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Dad Jokes</h1>
+      <button class="toggle-mode">🌚 Switch to Dark Mode</button>
+    </header>
+
+    <main>
+      <button class="btn">Get a Random Joke</button>
+      <p id="loader" style="display: none;">Loading...</p>
+      <p class="result"></p>
+
+      <div class="controls">
+        <button class="copy-btn">Copy Joke</button>
+        <button class="save-btn">Save Joke</button>
+        <button class="show-favorite-btn">Show Favorite Jokes</button>
+      </div>
+
+      <div class="favorite-jokes-container">
+        <ul class="favorite-jokes"></ul>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
